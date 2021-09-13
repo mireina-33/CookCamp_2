@@ -1,0 +1,76 @@
+img {
+    margin-top: 15px;
+}
+
+.list-group-item {
+    border: none;
+    background-image: url(arrow.png);
+    background-size: 6px 10px;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    background-position: 5px center;
+    color: #333333;
+}
+
+h2 {
+    color: #664433;
+    border-bottom: solid 2px #D3C9C5;
+    padding-bottom: 5px;
+    padding-left: 21px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    background-image: url(icon.png);
+    background-repeat: no-repeat;
+    line-height: 1.0;
+}
+
+h3 {
+    font-size: 16px;
+    color: #664433;
+}
+
+footer {
+    border-top: solid 1px #CCCCCC;
+}
+
+a {
+    color: #333333;
+}
+
+body {
+    padding-top: 140px;
+}
+
+#exampleInputAmount {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav>li>a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 15px;
+        margin-bottom: 7px;
+    }
+    .navbar-nav>li+li {
+        border-left: solid 1px #CCCCCC;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .top-toggler-icon {
+        margin-top: -41px;
+    }
+}
+
+@media (min-width: 992px) {
+    a.list-group-item {
+        border-top: dashed 1px #CCCCCC;
+    }
+    a.list-group-item:first-child {
+        border: none;
+    }
+}
